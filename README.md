@@ -1,23 +1,52 @@
-# BMI Calculator (#15 of 100 Projects Roadmap)
+# BMI Calculator
 
-A comprehensive BMI calculator with history tracking and health tips, built with React + Vite.
+> Calculate your **Body Mass Index** with a visual scale, health tips, and history tracking — built with React.
+
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
+
+---
 
 ## Features
 
-- Toggle between Metric (kg/cm) and Imperial (lb/ft+in) units
-- BMI result displayed large with color coding by category
-- Categories: Underweight (blue), Normal (green), Overweight (yellow), Obese (red)
-- Visual BMI scale with pointer showing your position
-- Health tips section: 3-4 personalized tips based on BMI category
-- Ideal weight range calculation for "Normal" BMI at your height
-- BMI history: last 5 calculations stored in localStorage as mini CSS bar chart
-- Body fat percentage estimate using general formula
-- Smooth result animation on BMI update
+- Calculates BMI from height (cm) and weight (kg)
+- Visual BMI scale — needle points to your result
+- Colour-coded category — Underweight / Normal / Overweight / Obese
+- Health tips tailored to your BMI category
+- Calculation history stored in `localStorage`
+- Supports both metric and imperial units
+- Responsive design
 
-## Run
+---
+
+## Run Locally
 
 ```bash
-npm install && npm run dev
+git clone https://github.com/Manzi-ol/bmi-calculator
+cd bmi-calculator
+npm install
+npm run dev
 ```
 
-## Part of Manzi's 100 GitHub Projects Roadmap
+---
+
+## BMI Categories
+
+| BMI Range | Category |
+|-----------|----------|
+| < 18.5 | Underweight |
+| 18.5 – 24.9 | Normal weight |
+| 25.0 – 29.9 | Overweight |
+| ≥ 30.0 | Obese |
+
+---
+
+## Tech Stack
+
+- **React 18** — Components & state
+- **Vite** — Build tool
+- **localStorage** — History persistence
+
+---
+
+*Part of [Manzi's 100 GitHub Projects Roadmap](https://github.com/Manzi-ol) · Project #15*
